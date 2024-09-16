@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-const int ARRAY_SIZE = 10;
-
 int main(void)
 {
+    const int ARRAY_SIZE = 10;
     double A[ARRAY_SIZE];
     double sum = 0;
     double average;
